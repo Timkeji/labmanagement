@@ -1,0 +1,168 @@
+<!doctype html>
+<html class="js cssanimations">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>成功表单</title>
+
+  <!-- Set render engine for 360 browser -->
+  <meta name="renderer" content="webkit">
+
+  <!-- No Baidu Siteapp-->
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+
+  <link rel="icon" type="image/png" href="assets/i/favicon.png">
+
+  <!-- Add to homescreen for Chrome on Android -->
+  <meta name="mobile-web-app-capable" content="yes">
+
+  <!-- Add to homescreen for Safari on iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Amaze UI" />
+  <link rel="apple-touch-icon-precomposed" href="../assets/i/app-icon72x72@2x.png">
+
+  <!-- Tile icon for Win8 (144x144 + tile color) -->
+  <meta name="msapplication-TileImage" content="assets/i/app-icon72x72@2x.png">
+  <meta name="msapplication-TileColor" content="#0e90d2">
+
+  <link rel="stylesheet" href="../assets/css/amazeui.min.css">
+  <link rel="stylesheet" href="../assets/css/app.css">
+  <link rel="stylesheet" href="../css/iconfont.css">
+  <link rel="stylesheet" href="../assets/css/admin.css">
+  <link rel="stylesheet" href="../css/The_general_administrator_fills_in_the_report.css">
+</head>
+
+
+
+
+<body>
+  <!-- 这是页面的头部 -->
+  <header class="am-topbar admin-header">
+    <div class="am-topbar-brand">
+      <img src="../images/logo.png">
+    </div>
+
+
+
+    <div class="am-collapse am-topbar-collapse" id="topbar-collapse">
+
+      <ul class="am-nav am-nav-pills am-topbar-nav am-topbar-right admin-header-list">
+
+        <li class="am-dropdown" data-am-dropdown>
+          <a id="am-dropdown-toggle" class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
+            <span class="am-icon-user">&nbsp;</span> Admin <span class="am-icon-caret-down"></span>
+          </a>
+          <ul class="am-dropdown-content">
+            <li><a href="admin-pwd.html"><span class="am-icon-circle-o-notch am-icon-spin"></span>个人信息</a></li>
+            <li><a href="#"><span class="am-icon-power-off"></span> 注销</a></li>
+          </ul>
+        </li>
+        <li class="am-hide-sm-only">
+        </li>
+      </ul>
+    </div>
+  </header>
+  <!-- 这是页面的身体 -->
+  <div class="box_contain">
+    <!-- 这是侧导航栏    -->
+    <div class="box_nav">
+
+      <div class="admin-sidebar am-offcanvas" id="admin-offcanvas">
+        <div class="am-offcanvas-bar admin-offcanvas-bar">
+          <div class="nav_list">
+            <i class="iconfont icon-nav"></i>
+          </div>
+          <ul class="am-list admin-sidebar-list">
+            <li><a href="admin-index.html" class="fh"><i class="iconfont icon-home-page"></i> <span
+                  class="icon_text">功能主页</span></a></li>
+            <li class="admin-parent">
+            <li class="admin-parent">
+              <a class="am-cf" data-am-collapse="{target: '#collapse-nav'}"><i class="iconfont icon-jurisdiction"></i>
+                <span class="icon_text">权限分配 </span><span class="am-icon-angle-right am-fr am-margin-right"></span></a>
+              <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-nav">
+                <li><a href="admin-user.html" class="am-cf"> <span>借用实验室申请</span></a></li>
+                <li><a href="admin-user.html" class="am-cf"> <span>借用仪器申请</span></a></li>
+                <li><a href="admin-user.html" class="am-cf"> <span>疫情期间开放实验室申请</span></a></li>
+                <li><a href="admin-user.html" class="am-cf"> <span>期末实验教学记录表</span></a></li>
+              </ul>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="admin-content">
+ 
+      <ol class="am-breadcrumb">
+        <li><a href="#">普通管理员</a></li>
+        <li><a href="#">表单填报</a></li>
+        <li class="am-active">借用实验室申请</li>
+      </ol>
+
+      <div class="fromenumber">
+      <div class="fromenumber_one ">
+        <span class="iconfont icon-wnumber_icon"></span>
+
+      </div>
+      <div class="fromenumber_two">
+        <h1>待处理表单数量</h1>
+      </div>
+      </div>
+      <div class="fromenumber">
+        <div class="fromenumber_one ">
+          <span class="iconfont icon-wnumber_icon"></span>
+  
+        </div>
+        <div class="fromenumber_two">
+          <h1>待审批单数量</h1>
+        </div>
+        </div>
+        <div class="fromenumber">
+          <div class="fromenumber_one ">
+            <span class="iconfont icon-wnumber_icon"></span>
+    
+          </div>
+          <div class="fromenumber_two">
+            <h1>申请成功单数量</h1>
+          </div>
+          </div>
+          <div class="fromenumber">
+            <div class="fromenumber_one ">
+              <span class="iconfont icon-wnumber_icon"></span>
+      
+            </div>
+            <div class="fromenumber_two">
+              <h1>申请失败数量</h1>
+            </div>
+            </div>
+    </div>
+    <!-- 主要内容设置 -->
+    <div class="request">
+
+    </div>
+
+
+
+
+
+
+    <!--[if (gte IE 9)|!(IE)]><!-->
+    <script src="../assets/js/jquery.min.js"></script>
+    <!--<![endif]-->
+    <script src="../assets/js/amazeui.min.js"></script>
+    <script src="../js/jqPaginator.js"></script>
+   
+    <script src="../js/classloading.js"></script>
+    <script src="../js/classcheck.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../assets/js/app.js"></script>
+    <script src="../Js/echarts.min.js"></script>
+    <script src="../js/equement.js"></script>
+</body>
+
+</html>

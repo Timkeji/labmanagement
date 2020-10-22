@@ -1,0 +1,111 @@
+<!-- 
+  时间:2020/9/20
+  使用amaze ui做landing响应
+ -->
+<!doctype html>
+<html class="js cssanimations">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>管理员登录</title>
+
+    <!-- Set render engine for 360 browser -->
+    <meta name="renderer" content="webkit">
+
+    <!-- No Baidu Siteapp-->
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+
+    <!-- <link rel="icon" type="image/png" href="assets/i/favicon.png"> -->
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI" />
+    <link rel="apple-touch-icon-precomposed" href="../assets/i/app-icon72x72@2x.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="assets/i/app-icon72x72@2x.png">
+    <meta name="msapplication-TileColor" content="#0e90d2">
+
+    <link rel="stylesheet" href="../assets/css/amazeui.min.css">
+    <link rel="stylesheet" href="../assets/css/app.css">
+    <link rel="stylesheet" href="../css/iconfont.css">
+    <link rel="stylesheet" href="../css/Landing.css" media="screen">
+    <link rel="stylesheet" href="../css/supadlanding_print.css" media="screen">
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <div class="am-box">
+        <!--logo  -->
+        <div class="am-container">
+            <img src="../images/logo.png">
+        </div>
+        <!-- bg -->
+        <div class="am-g">
+            <div class="am-u-sm-0 am-u-lg-7">
+                <img src="../images/bg.png">
+            </div>
+            <div class="am-u-sm-12 am-u-lg-5">
+                <div class="am-g">
+                    <form method="" id="form1" action="#">
+                        <div class="am-landing-bd am-u-sm-centered">
+                            <div class="am-tabs" data-am-tabs>
+                                <ul class="am-tabs-nav am-nav am-nav-tabs am-u-sm-centered">
+                                    <li class="am-active"><a href="#tab1">管理员登录</a></li>
+                                    <li><a href="#tab2">组织登录</a></li>
+                                </ul>
+
+                                <div class="am-tabs-bd">
+                                    <div class="am-tab-panel am-fade am-in am-active" id="tab1">
+                                        <div class="bd-inp">
+                                            <div class="inp-box"><i class="iconfont icon-user1"></i><input class="inp-inp" type="text" placeholder="请输入工号" value="" name="work_id" id="work_id1"></div>
+                                            <div class="inp-box"><i class="iconfont icon-Lock"></i><input class="inp-inp" type="password" placeholder="请输入密码" value="" name="password" id="password1"></div>
+                                            <div class="bd-landing">
+                                                <input class="bd-landing" type="button" value="登录" onclick="adminLogin()">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="am-tab-panel am-fade" id="tab2">
+                                        <div class="bd-inp">
+                                            <div class="inp-box"><i class="iconfont icon-user1"></i><input class="inp-inp" type="text" placeholder="请输入组织账号" value="" name="work_id" id="work_id2"></div>
+                                            <div class="inp-box"><i class="iconfont icon-Lock"></i><input class="inp-inp" type="password" placeholder="请输入密码" value="" name="password" id="password2"></div>
+                                            <div class="bd-landing">
+                                                <input class="bd-landing" type="button" value="登录" onclick="studentLogin()">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="keep_mind">
+                                <input type="checkbox">
+                                <p>记住登陆状态</p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="../font/iconfont.js"></script>
+<script src="../js/jquery-2.0.0.min.js"></script>
+<script src="../assets/js/amazeui.js"></script>
+<script src="../js/Landing.js"></script>
+
+</html>

@@ -1,0 +1,206 @@
+<!doctype html>
+<html class="js cssanimations">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>开放实验室</title>
+
+  <!-- Set render engine for 360 browser -->
+  <meta name="renderer" content="webkit">
+
+  <!-- No Baidu Siteapp-->
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+
+  <link rel="icon" type="image/png" href="assets/i/favicon.png">
+
+  <!-- Add to homescreen for Chrome on Android -->
+  <meta name="mobile-web-app-capable" content="yes">
+
+  <!-- Add to homescreen for Safari on iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Amaze UI" />
+  <link rel="apple-touch-icon-precomposed" href="../assets/i/app-icon72x72@2x.png">
+
+  <!-- Tile icon for Win8 (144x144 + tile color) -->
+  <meta name="msapplication-TileImage" content="assets/i/app-icon72x72@2x.png">
+  <meta name="msapplication-TileColor" content="#0e90d2">
+
+  <link rel="stylesheet" href="../assets/css/amazeui.min.css">
+  <link rel="stylesheet" href="../assets/css/app.css">
+  <link rel="stylesheet" href="../css/iconfont.css">
+  <link rel="stylesheet" href="../assets/css/admin.css">
+  <link rel="stylesheet" href="../css/Open_laboratory_application.css">
+</head>
+
+
+
+
+<body>
+  <!-- 这是页面的头部 -->
+
+  <header class="am-topbar admin-header">
+    <div class="am-topbar-brand">
+      <img src="../images/logo.png">
+    </div>
+
+
+
+    <div class="am-collapse am-topbar-collapse" id="topbar-collapse">
+
+      <ul class="am-nav am-nav-pills am-topbar-nav am-topbar-right admin-header-list">
+
+        <li class="am-dropdown" data-am-dropdown>
+          <a id="am-dropdown-toggle" class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
+            <span class="am-icon-user">&nbsp;</span> 个人信息 <span class="am-icon-caret-down"></span>
+          </a>
+          <ul class="am-dropdown-content">
+            <li><a href="admin-pwd.html"><span class="am-icon-circle-o-notch am-icon-spin"></span> 个人信息</a></li>
+            <li><a href="#" onclick="logout()"><span class="am-icon-power-off"  ></span> 注销</a></li>
+          </ul>
+        </li>
+        <li class="am-hide-sm-only">
+        </li>
+      </ul>
+    </div>
+  </header>
+  <!-- 这是页面的身体 -->
+  <div class="box_contain">
+    <!-- 这是侧导航栏    -->
+    <div class="box_nav">
+
+      <div class="admin-sidebar am-offcanvas" id="admin-offcanvas">
+        <div class="am-offcanvas-bar admin-offcanvas-bar">
+          <div class="nav_list">
+            <i class="iconfont icon-nav"></i>
+          </div>
+          <ul class="am-list admin-sidebar-list">
+            <li><a href="funcation_home.html"><i class="iconfont icon-home-page"></i> <span
+                  class="icon_text">功能主页</span></a></li>
+            <li class="admin-parent">
+            <li class="admin-parent">
+              <a class="am-cf gnxg " onclick="huanqu(this)" data-am-collapse="{target: '#collapse-nav'}"><i
+                  class="iconfont icon-jurisdiction"></i>
+                <span class="icon_text">权限分配 </span><span class="am-icon-angle-right am-fr am-margin-right"></span></a>
+              <ul class="am-list am-collapse admin-sidebar-sub am-in xsxg" id="collapse-nav">
+                <li><a href="Borrow_application.html" class="am-cf " > <span>借用实验室申请</span></a></li>
+                <li><a href="Apply_instrument.html" class="am-cf " onclick=change()> <span>借用仪器申请</span></a></li>
+                <li><a href="Open_laboratory_application.html" class="am-cf fh" onclick=change()> <span>疫情期间开放实验室申请</span></a></li>
+                <li><a href="Record_the_checklist.html" class="am-cf" onclick=change()> <span>期末实验教学记录表</span></a></li>
+              </ul>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="admin-content">
+      <div class="am-cf am-padding">
+        <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">
+          <ol class="am-breadcrumb am-hide-sm-only">
+            <li><a href="#">普通管理员</a></li>
+            <li><a href="#">表单填报</a></li>
+            <li class="am-active">疫情期间开放实验室申请</li>
+          </ol>
+          </strong>
+        </div>
+      </div>
+     
+      <!-- <div class="box_one">
+        <input type="text" placeholder="表单编号">
+      </div> -->
+      <div class="contain">
+        <div class="contain_head am-hide-sm am-hide-md">
+          <p>开放实验室申请填报表</p>
+          <input type="date" name="date" id="date">
+        </div>
+        <form action="">
+   
+          <input type="text" value="使用原因" disabled>
+          <input type="text" value="" class="txnr" name="use_reason" id="use_reason">
+          <input type="text" value="项目名称" disabled>
+          <input type="text" value="" class="txnr" name="project_name" id="project_name">
+          <input type="text" value="使用时间">
+         <input type="date" name="start_time" id="start_time">
+          <br class="am-show-sm">
+          <input type="text"  value="至" class="synyr txnyr">
+          <br class="am-show-sm">
+         <input type="date" name="end_time" id="end_time">
+          <input type="text" value="每天8:20-22:00" class="mrsj" disabled>
+        
+        
+          <table border="1" id="tab">
+            <tbody>
+              <th>姓名</th>
+              <th>学号</th>
+              <th>联系电话</th>
+              <th>承担工作</th>
+              <tr>
+                <td><input type="text" name="student_name"></td>
+                <td><input type="text" name="student_id"></td>
+                <td><input type="text" name="student_phone"></td>
+                <td><input type="text" name="take_work"></td>
+              </tr>
+   
+            </tbody>
+          </table>
+          <div class="tx">
+            <p>
+              疫情特殊时期，我承诺学生进入实验室后第一时间给学生宣讲《实验室疫情个人防护常识》， 并拍照存档。
+              <br>
+              在实验室期间要求同学们隔位而坐。配合实验中心相关工作安排。
+            </p>
+          </div>
+          <div class="add" onclick="tjtr()">
+          <span>+</span>
+          </div>
+
+        </form>
+
+      </div>
+      <div class="btn">
+        <button class="button button2" onclick="qrtj()">确认提交</button>
+        <button class="button button3">重填表单</button>
+      </div>
+      <a href="#" class="am-show-sm-only admin-menu" data-am-offcanvas="{target: '#admin-offcanvas'}">
+        <span class="am-icon-btn am-icon-th-list"></span>
+    </a>
+  
+
+    </div>
+
+    <!-- 主要内容设置 -->
+
+
+
+
+
+    <!--[if (gte IE 9)|!(IE)]><!-->
+    <script src="../assets/js/jquery.min.js"></script>
+    <!--<![endif]-->
+    <script src="../assets/js/amazeui.min.js"></script>
+    <script src="../js/classcheck.js"></script>
+    <script src="../js/classloading.js"></script>
+    <script src="../assets/js/app.js"></script>
+    <script src="../Js/echarts.min.js"></script>
+    <script src="../js/Open_laboratory_application.js"></script>
+    <script>
+
+      function huanqu() {
+        var a = document.getElementsByClassName("xsxg")[0];
+        var b = document.getElementsByClassName("fh")[0];
+        b.style.background = "white";
+        b.style.hover.background = "pink"
+        a.parentNode.style.background = "#5A8CFF";
+
+      }
+
+
+    </script>
+</body>
+
+</html>

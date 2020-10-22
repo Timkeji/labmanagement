@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+
+.am-topbar,.admin-header{
+   margin: 0;
+   height: 60px;
+   background: #5A8CFF;
+   box-shadow: 1px 5px 10px 1px rgba(3, 3, 3, 0.11);
+}
+.am-topbar-brand{
+    width: 259px;   
+    height: 59px;
+    background: #4878E7;
+    float: left;
+}
+.am-topbar-brand img{
+    padding: 1px 0 0 28px;
+}
+.am-topbar-right{
+    margin-top: 5px;
+}
+#am-dropdown-toggle{
+    color: white;
+}
+#am-dropdown-toggle:hover{
+    background: transparent;
+}
+.am-btn-success{
+    outline: none;
+    margin-top: 13px;
+}
+.box_nav{
+    height: 100%;
+    border: 0;
+    width: 260px;
+    background-color: white;
+}
+.admin-sidebar{
+    border: none;
+}
+.nav_list{
+    height: 60px;
+    background-color: white;
+}
+.icon-nav{
+    float: right;
+    font-size: 24px;
+    padding: 10px;
+    color: #4878E7;
+}
+.am-list>li {
+    position: relative;
+    display: block;
+    margin-bottom: 0px;
+    background-color: #fff;
+    border:none;
+    border-width:0;
+}
+.admin-sidebar-sub li:first-child {
+    border: none;
+}
+.admin-sidebar-list li a {
+    color: #151E34;
+    padding-left: 55px;
+}
+.admin-sidebar-list li a:hover,#collapse-nav:hover{
+    background-color:#5A8BFF ;
+    color: white;
+}
+.admin-sidebar-sub{
+    padding-left: 0px;
+    background: none;
+    box-shadow: none;
+}
+.am-icon-home,.am-icon-sign-out{
+  font-size: 20px;
+}
+.icon_text{
+    margin-left:10px ;
+}
+.admin-content{
+    min-height: 875px;
+    background-color:#F0F3FC ;
+}
+.am-padding{
+    height: 60px;
+    background: #FBFCFE;
+    box-shadow: 1px 5px 2px 1px rgba(3, 3, 3, 0.01);
+
+}
+.am-text-primary{
+    color: #4878E7;
+}
+.am-g {
+    margin: 35px auto;
+    width: 100%;
+}
+.am-margin-right {
+    transform:rotate(90deg);
+    margin-top: 15px;
+}
+.fromenumber {
+    width: 307px;
+    height: 285px;
+    background-color: #ffffff;
+    margin-top: 60px;
+    float: left;
+    border-radius: 10px;
+    margin-left: 88px;
+}
+.fromenumber_one{
+    width: 307px;
+    height: 211px;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+    /* background-color:pink; */
+    border-radius:10px 10px 0px 0px;
+    
+}
+.fromenumber_two{
+    text-align: center;
+    width: 307px;
+    height: 74px;
+    color: white;
+    background: #5A8CFF;
+    box-shadow: 1px 2px 11px 0px rgba(0, 0, 0, 0.09);
+    border-radius: 0px 0px 10px 10px;
+    padding-top: 15px;
+    
+}
+.icon-wnumber_icon:before {
+
+    font-size:114px;
+    content: "\e618";
+}
+.fh{
+    background: #5A8CFF;
+}
+.fh:hover{
+    color: black;
+    background-color: #5A8CFF !important;
+}
+.fromenumber:hover{
+    cursor: pointer;
+}
+

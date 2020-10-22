@@ -1,0 +1,344 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+
+.am-topbar,.admin-header{
+   margin: 0;
+   height: 60px;
+   background: #5A8CFF;
+   box-shadow: 1px 5px 10px 1px rgba(3, 3, 3, 0.11);
+}
+.am-topbar-brand{
+    width: 259px;   
+    height: 59px;
+    background: #4878E7;
+    float: left;
+}
+.am-topbar-brand img{
+    padding: 1px 0 0 28px;
+}
+.am-topbar-right{
+    margin-top: 5px;
+}
+#am-dropdown-toggle{
+    color: white;
+}
+#am-dropdown-toggle:hover{
+    background: transparent;
+}
+.am-btn-success{
+    outline: none;
+    margin-top: 13px;
+}
+.box_nav{
+    height: 100%;
+    border: 0;
+    width: 260px;
+    background-color: white;
+}
+.admin-sidebar{
+    border: none;
+}
+.nav_list{
+    height: 60px;
+    background-color: white;
+}
+.icon-nav{
+    float: right;
+    font-size: 24px;
+    padding: 10px;
+    color: #4878E7;
+}
+.am-list>li {
+    position: relative;
+    display: block;
+    margin-bottom: 0px;
+    background-color: #fff;
+    border:none;
+    border-width:0;
+}
+.admin-sidebar-sub li:first-child {
+    border: none;
+}
+.admin-sidebar-list li a {
+    color: #151E34;
+    padding-left: 55px;
+}
+.admin-sidebar-list li a:hover,#collapse-nav:hover{
+    background-color:#5A8BFF ;
+    color: white;
+}
+.admin-sidebar-sub{
+    background: none;
+    box-shadow: none;
+}
+.am-icon-home,.am-icon-sign-out{
+  font-size: 20px;
+}
+.icon_text{
+    margin-left:10px ;
+}
+.admin-content{
+    min-height: 875px;
+    background-color:#F0F3FC ;
+}
+.am-padding{
+    height: 60px;
+    background: #FBFCFE;
+    box-shadow: 1px 5px 2px 1px rgba(3, 3, 3, 0.01);
+
+}
+.am-text-primary{
+    color: #4878E7;
+}
+.am-g {
+    margin: 35px auto;
+    width: 100%;
+}
+.personal{
+    width: 1332px;
+height: 545px;
+margin:100px auto;
+/* background: #FFFFFF; */
+border: 1px solid #EDF1F5;
+box-shadow: 1px 8px 17px 2px rgba(0, 0, 0, 0.05);
+ /* background-color: pink; */
+
+}
+.personal_top{
+    width: 100%;
+height: 63px;
+background: #5A8CFF;
+box-shadow: 1px 9px 24px 1px rgba(227, 230, 232, 0.63), 1px 1px 7px 0px rgba(235, 247, 248, 0.27);
+border-radius: 4px 4px 0px 0px;
+}
+.personal_left>div,.personal_right>div{
+    text-align: center;
+}
+.personal_left>div>span,.personal_right>div>span{
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.personal_left>div>input,.personal_right>div>input{
+    width: 170px;
+height: 35px;
+border: 1px solid #E5E5E5;
+padding-left: 20px;
+border-radius: 18px;
+margin-left: 30px;
+
+}
+.personal_left>div,.personal_right>div{
+    margin-top: 58px;
+}
+.personal_left,.personal_right{
+    float: left;
+    width: 50%;
+    height: 70%;
+}
+.btn{
+
+text-align: center;
+}
+.am-btn-primary{
+
+background: #5A8CFF;
+border-radius: 9px;
+    outline: none;
+}
+.am-modal-dialog{
+    width: 489px;
+height: 506px;
+background: #FFFFFF;
+box-shadow: 0px 0px 7px 1px rgba(3, 3, 3, 0.21);
+border-radius: 10px;
+
+}
+.am-modal-footer{
+    width: 265px;
+    height: 49px;
+    margin: 0 auto;
+    background: #59BFFF;
+border-radius: 10px;
+}
+.am-modal-hd{
+    width: 100%;
+    height:80px;
+    font-size: 34px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+    background: #5A8BFF;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+.am-modal-footer>span{
+ 
+color:white;
+
+}
+.am-modal-bd>div>input{
+    width: 353px;
+    height: 50px;
+    margin-left: 20px;
+background:#F7F7F7;
+/* opacity: 0.03; */
+border-radius: 10px;
+border: #F7F7F7;
+outline: none;
+padding-left: 15px;
+
+}
+.am-modal-bd{
+    border-bottom: 0px solid #dedede;
+}
+.am-modal-bd>div{
+    margin-top: 63px;
+}
+
+.Change_password{
+    width: 489px;
+height: 649px;
+background: #FFFFFF;
+box-shadow: 0px 0px 7px 1px rgba(3, 3, 3, 0.21);
+border-radius: 10px;
+
+}
+.Change_password>.am-modal-bd>div {
+    margin-top: 50px;
+}
+.Change_password>.am-modal-footer {
+    margin-top: 39px;
+}
+.again{
+    margin-left: 56px!important;
+}
+@media screen and (max-width:644px) {
+    .iconfont{
+        font-size: 20px;
+    }
+    .admin-content {
+        min-height: 875px;
+        background-color: #F0F3FC;
+    }
+    .personal{
+        text-align: center;
+        margin: 0px;
+        box-shadow: 0px 0px 0px 0px;
+        /* width: 100%; */
+        /* height: 100%; */
+        /* background-color: turquoise; */
+    }
+    .personal_left,.personal_right{
+        height:330px;
+        clear: left;
+    }
+    .personal_right{
+        margin-bottom: 40px;
+    }
+   
+    .personal_left>div,.personal_right>div{
+        width: 330px;
+        margin-top: 40px;
+        text-align: center;
+          }
+          .personal_right>div>span{
+              margin-left: 15px;
+          }
+    .btn{
+width: 350px;
+height: 50px;
+margin-top: 50px;
+      clear: left;
+        
+    }
+    .personal_left>div>input,.personal_right>div>input{
+        width: 170px;
+    height: 35px;
+    border: 1px solid #E5E5E5;
+    padding-left: 20px;
+    border-radius: 18px;
+    margin-left: 15px;
+    
+    }
+    .am-modal-dialog {
+        width: 348px;
+    }
+    .am-modal-bd>div>input {
+      width: 286px;
+    }
+  
+
+    .again{
+        margin-left: 41px!important;
+    }
+}
+@media screen and (max-width:414px) {
+    .iconfont{
+        font-size: 20px;
+    }
+    .admin-content {
+        min-height: 750px;
+        background-color: #F0F3FC;
+    }
+    .personal{
+        text-align: center;
+        margin: 0px;
+        box-shadow: 0px 0px 0px 0px;
+        /* width: 100%; */
+        /* height: 100%; */
+        /* background-color: turquoise; */
+    }
+    .personal_left,.personal_right{
+        height: 170px;
+        clear: left;
+    }
+    .personal_right{
+        margin-bottom: 40px;
+    }
+   
+    .personal_left>div,.personal_right>div{
+        width: 330px;
+        margin-top: 20px;
+        text-align: center;
+          }
+          .personal_right>div>span{
+              margin-left: 15px;
+          }
+    .btn{
+width: 350px;
+height: 50px;
+margin-top: 50px;
+      clear: left;
+        
+    }
+    .personal_left>div>input,.personal_right>div>input{
+        width: 170px;
+    height: 35px;
+    border: 1px solid #E5E5E5;
+    padding-left: 20px;
+    border-radius: 18px;
+    margin-left: 15px;
+    
+    }
+    .am-modal-dialog {
+        width: 300px;
+        height: 506px;
+    
+    }
+    .am-modal-bd>div>input {
+        width: 200px;
+    }
+    .Change_password{
+        height: 636px;
+    }
+    .am-modal-footer {
+        width: 174px;
+    }
+}

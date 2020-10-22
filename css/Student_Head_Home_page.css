@@ -1,0 +1,583 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.am-topbar,
+.admin-header {
+    margin: 0;
+    height: 60px;
+    background: #5A8CFF;
+    box-shadow: 1px 5px 10px 1px rgba(3, 3, 3, 0.11);
+}
+
+.am-topbar-brand {
+    width: 259px;
+    height: 59px;
+    background: #4878E7;
+    float: left;
+}
+
+.am-topbar-brand img {
+    padding: 1px 0 0 28px;
+}
+
+.am-topbar-right {
+    margin-top: 5px;
+}
+
+#am-dropdown-toggle {
+    color: white;
+}
+
+#am-dropdown-toggle:hover {
+    background: transparent;
+}
+
+.am-btn-success {
+    outline: none;
+    margin-top: 13px;
+}
+
+.admin-sidebar {
+    border: none;
+    height: 100%;
+}
+
+.admin-offcanvas-bar {
+    background-color: white;
+}
+
+.admin-main {
+    background-color: white;
+    height: 100%;
+}
+
+.nav_list {
+    height: 60px;
+    background-color: white;
+}
+
+.icon-nav {
+    float: right;
+    font-size: 24px;
+    padding: 10px;
+    color: #4878E7;
+}
+
+.am-list>li {
+    position: relative;
+    display: block;
+    margin-bottom: 0px;
+    background-color: #fff;
+    border: none;
+    border-width: 0;
+}
+
+.admin-sidebar-sub li:first-child {
+    border: none;
+}
+
+.admin-sidebar-list li a {
+    color: #151E34;
+    padding-left: 55px;
+}
+
+.admin-sidebar-list li a:hover,
+#collapse-nav:hover {
+    background-color: #5A8BFF;
+    color: white;
+}
+
+.admin-sidebar-sub {
+    background: none;
+    box-shadow: none;
+}
+
+.am-icon-home,
+.am-icon-sign-out {
+    font-size: 20px;
+}
+
+.icon_text {
+    margin-left: 10px;
+}
+
+.admin-content {
+    background-color: #F0F3FC;
+    min-height: 875px;
+    max-height: 1500px;
+}
+
+.am-padding {
+    height: 60px;
+    background: #FBFCFE;
+    box-shadow: 1px 5px 2px 1px rgba(3, 3, 3, 0.01);
+}
+
+.am-text-primary {
+    color: #4878E7;
+}
+
+.am-breadcrumb {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* 中间类容 */
+.am-scrollable-horizontal {
+    margin-top: 50px;
+    max-width: 1200px;
+    min-height: 525px;
+    overflow: hidden;
+    background: #FFFFFF;
+    border: 1px solid #EDF1F5;
+    box-shadow: 1px 8px 17px 2px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    padding: 0;
+}
+.titele{
+    border-bottom: 1px solid #F7F7F7;
+}
+.am-round{
+    background-color: #F7F7F7;
+    border: none;
+}
+
+/* 按钮 */
+.amgwidth{
+    margin-top: 66px;
+    width: 600px;
+}
+#summbb{
+        width: 118px;
+        height: 38px;
+        background: #5A8BFF;
+        border-radius: 9px;
+        border: none;
+        outline: none;
+        color: white;
+}
+#resst{
+    width: 118px;
+    height: 38px;
+    background: #F05858;
+    border-radius: 9px;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+
+
+/* iphone 5 */
+
+@media screen and (min-width: 320px) {
+    .am-margin {
+        margin: 24px 0 0 0;
+        padding-left: 9px;
+    }
+    .am-scrollable-horizonta {
+        margin-top: 20px;
+    }
+    .btn-look {
+        margin: 0;
+    }
+    .btn-look {
+        width: 65px;
+        height: 30px;
+        background: #5A8BFF;
+        border-radius: 15px;
+        border: none;
+        color: white;
+        font-size: 15px;
+    }
+    .but-use {
+        width: 65px;
+        height: 30px;
+        background: #F5F6F7;
+        border-radius: 15px;
+        border: none;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    #pagcentered {
+        max-width: 970px;
+        padding: 25px 0 0 0;
+    }
+    .input_ser {
+        width: 142px;
+        height: 40px;
+        background: white;
+        border: none;
+        box-shadow: 0px 3px 12px 2px rgba(0, 0, 0, 0.03);
+        border-radius: 20px;
+    }
+    .input_ser input {
+        float: left;
+        width: 66%;
+        border: none;
+        height: 25px;
+        margin: 8px 0 8px 16px;
+        /* outline: none;*/
+    }
+    .icon-sousuo1-copy {
+        margin-top: 7px;
+        font-size: 18px;
+        float: right;
+    }
+}
+
+@media screen and (min-width: 320px) {
+    .am-margin {
+        margin: 24px 0 0 0;
+        padding-left: 9px;
+    }
+    .am-scrollable-horizonta {
+        margin-top: 20px;
+    }
+    .btn-look {
+        margin: 0;
+    }
+    .btn-look {
+        width: 65px;
+        height: 30px;
+        background: #5A8BFF;
+        border-radius: 15px;
+        border: none;
+        color: white;
+        font-size: 15px;
+    }
+    .but-use {
+        width: 65px;
+        height: 30px;
+        background: #F5F6F7;
+        border-radius: 15px;
+        border: none;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    #pagcentered {
+        max-width: 970px;
+        padding: 25px 0 0 0;
+    }
+    .input_ser {
+        width: 142px;
+        height: 40px;
+        background: white;
+        border: none;
+        box-shadow: 0px 3px 12px 2px rgba(0, 0, 0, 0.03);
+        border-radius: 20px;
+    }
+    .input_ser input {
+        float: left;
+        width: 66%;
+        border: none;
+        height: 25px;
+        margin: 8px 0 8px 16px;
+        /* outline: none;*/
+    }
+    .icon-sousuo1-copy {
+        margin-top: 7px;
+        font-size: 18px;
+        float: right;
+    }
+}
+
+
+/* iphoneX */
+
+@media screen and (min-width: 375px) {
+    .am-margin {
+        margin: 24px 0 0 0;
+        padding-left: 9px;
+    }
+    .am-scrollable-horizonta {
+        margin-top: 20px;
+    }
+    .btn-look {
+        margin: 0;
+    }
+    .btn-look {
+        width: 65px;
+        height: 30px;
+        background: #5A8BFF;
+        border-radius: 15px;
+        border: none;
+        color: white;
+        font-size: 15px;
+    }
+    .but-use {
+        width: 65px;
+        height: 30px;
+        background: #F5F6F7;
+        border-radius: 15px;
+        border: none;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .input_ser {
+        width: 166px;
+        height: 40px;
+        background: white;
+        border: none;
+        box-shadow: 0px 3px 12px 2px rgba(0, 0, 0, 0.03);
+        border-radius: 20px;
+    }
+    .input_ser input {
+        float: left;
+        width: 70%;
+        border: none;
+        height: 25px;
+        margin: 8px 0 8px 16px;
+        /* outline: none;*/
+    }
+    .icon-sousuo1-copy {
+        margin-top: 7px;
+        font-size: 18px;
+        float: right;
+    }
+    .admin-content{
+        min-height: 950px;
+    }
+}
+
+
+/* iphone6 7 8 plus */
+
+@media screen and (min-width: 414px) {
+    .am-margin {
+        margin: 30px 0 0 0;
+        padding-left: 9px;
+    }
+    .am-scrollable-horizonta {
+        margin-top: 20px;
+    }
+    .btn-look {
+        margin: 0;
+    }
+    .btn-look {
+        width: 65px;
+        height: 30px;
+        background: #5A8BFF;
+        border-radius: 15px;
+        border: none;
+        color: white;
+        font-size: 15px;
+    }
+    .but-use {
+        width: 65px;
+        height: 30px;
+        background: #F5F6F7;
+        border-radius: 15px;
+        border: none;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    #pagcentered {
+        max-width: 970px;
+        padding: 25px 0 0 0;
+    }
+    .am-scrollable-horizontal {
+        margin-top: 30px;
+    }
+    .input_ser {
+        width: 189px;
+        height: 40px;
+        background: white;
+        border: none;
+        box-shadow: 0px 3px 12px 2px rgba(0, 0, 0, 0.03);
+        border-radius: 20px;
+    }
+    .input_ser input {
+        float: left;
+        width: 75%;
+        border: none;
+        height: 25px;
+        margin: 8px 0 8px 16px;
+        /* outline: none; */
+    }
+    .icon-sousuo1-copy {
+        margin-top: 7px;
+        font-size: 18px;
+        float: right;
+    }
+    .admin-content{
+        min-height: 950px;
+    }
+}
+
+@media only screen and (min-width :481px) {
+    .am-margin {
+        margin: 30px 0 0 0;
+        padding-left: 9px;
+    }
+    .am-scrollable-horizontal {
+        margin-top: 60px;
+    }
+    .btn-look {
+        margin: 0;
+    }
+    .btn-look {
+        width: 65px;
+        height: 30px;
+        background: #5A8BFF;
+        border-radius: 15px;
+        border: none;
+        color: white;
+        font-size: 15px;
+    }
+    .but-use {
+        width: 65px;
+        height: 30px;
+        background: #F5F6F7;
+        border-radius: 15px;
+        border: none;
+        font-size: 15px;
+        margin-top: 0px;
+    }
+    #pagcentered {
+        max-width: 970px;
+        padding: 25px 0 0 0;
+    }
+
+    .input_ser {
+        width: 229px;
+        height: 51px;
+        background: white;
+        border: none;
+        box-shadow: 0px 3px 12px 2px rgba(0, 0, 0, 0.03);
+        border-radius: 20px;
+    }
+    .input_ser input {
+        float: left;
+        width: 75%;
+        border: none;
+        height: 35px;
+        margin: 8px 0 8px 16px;
+        /* outline: none; */
+    }
+    .icon-sousuo1-copy {
+        margin-top: 5px;
+        font-size: 28px;
+        float: right;
+    }
+    .textp {
+        margin: 2px 0;
+        float: right;
+        font-size: 16px;
+    }
+    .admin-content{
+        min-height: 950px;
+    }
+    .amgwidth{
+        margin-top: 20px;
+        width: auto;
+    }
+}
+
+
+/* ipad */
+
+@media screen and (min-width: 768px) {
+    .down-left {
+        float: right;
+        padding: 0;
+    }
+    .am-scrollable-horizonta {
+        margin-top: 20px;
+    }
+    .btn-look {
+        margin: 0;
+    }
+    .but-use {
+        width: 65px;
+        height: 30px;
+        background: #F5F6F7;
+        border-radius: 15px;
+        border: none;
+        font-size: 15px;
+        margin-top: 0px;
+    }
+    .admin-content{
+        min-height: 800px;
+    }
+}
+
+
+/* ipad pro */
+
+@media screen and (min-width: 1024px) {
+    .am-scrollable-horizonta {
+        margin-top: 20px;
+    }
+    #pagcentered {
+        max-width: 970px;
+        padding-left: 156px;
+        padding-right: 156px;
+        padding-top: 25px;
+    }
+    .admin-content{
+        min-height: 800px;
+    }
+    
+}
+
+
+/* pc */
+
+@media screen and (min-width: 1025px) {
+    .down-left {
+        float: right;
+        padding: 0;
+    }
+    .am-margin {
+        margin: 30px 0 0 0;
+        padding-left: 133px;
+        padding-right: 133px;
+    }
+    .am-scrollable-horizonta {
+        margin-top: 20px;
+    }
+    #pagcentered {
+        max-width: 970px;
+        padding-left: 156px;
+        padding-right: 156px;
+        padding-top: 25px;
+    }
+    .input_ser {
+        width: 355px;
+        height: 40px;
+        background: white;
+        border: none;
+        box-shadow: 0px 3px 12px 2px rgba(0, 0, 0, 0.03);
+        border-radius: 20px;
+    }
+    .input_ser input {
+        float: left;
+        width: 80%;
+        border: none;
+        height: 25px;
+        margin: 8px 0 8px 16px;
+        /* outline: none; */
+    }
+    .icon-sousuo1-copy {
+        margin-right: 12px;
+        font-size: 26px;
+        float: right;
+        margin-top: 0;
+    }
+    .amgwidth{
+        margin-top: 60px;
+        width: auto;
+    }
+    .admin-content{
+        min-height: 800px;
+    }
+}
